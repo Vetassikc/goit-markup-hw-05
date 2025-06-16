@@ -453,8 +453,10 @@ img {
     background-color: #4d5ae5;
     border: none;
     border-radius: 4px;
-    gap: 16px;
-    /* Додано для відступу */
+}
+
+.footer-btn-icon {
+    margin-left: 16px;
 }
 
 /* --- Backdrop & Modal --- */
