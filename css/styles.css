@@ -636,6 +636,16 @@ img {
     /* Додано для відступу */
 }
 
+.modal-input:hover,
+.modal-input:focus {
+    border: 1px solid #4D5AE5;
+}
+
+.modal-input:hover+.modal-icon,
+.modal-input:focus+.modal-icon {
+    fill: #4D5AE5;
+}
+
 .visually-hidden:checked+.checkbox-label .custom-checkbox {
     background-color: #404bbf;
     border: none;
